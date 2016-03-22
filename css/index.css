@@ -1,0 +1,288 @@
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+tr,
+td {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img {
+  border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+caption,
+th,
+td {
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+q:before,
+q:after {
+  content: '';
+}
+abbr,
+acronym {
+  border: 0;
+}
+body {
+  font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+}
+a {
+  text-decoration: none;
+}
+.clearfix {
+  zoom: 1;
+}
+.cleaefix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.header .header_1 {
+  margin-left: 5px;
+}
+.header span {
+  display: inline-block;
+  padding-top: 3px;
+  vertical-align: center;
+}
+.header_left1 {
+  margin-left: 5px;
+}
+.header {
+  width: 100%;
+  height: 27px;
+  background: #F8F8F8 ;
+  position: fixed;
+  border-bottom: 1px solid #CCCCCC;
+}
+.header_left {
+  padding-left: 5px;
+  float: left;
+}
+.header_left a:hover {
+  color: #FF6600;
+}
+.header_right {
+  float: right;
+}
+.header_right a {
+  color: black;
+}
+.header_right a:hover {
+  color: #FF6600;
+}
+.main {
+  width: 975px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 30px;
+}
+.main .logo {
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+.main .logo img {
+  width: 180px;
+  height: 68px;
+}
+.main .main_nav {
+  background: #E5ECF9;
+  height: 25px;
+  border-bottom: 1px solid black;
+}
+.main .main_nav ul {
+  margin-left: 20px;
+  background: #E5ECF9;
+  height: 25px;
+}
+.main .main_nav ul .main_nav_c {
+  border: 1px solid black;
+  border-bottom: none;
+  background: white;
+  margin: 0 1px 0 1px;
+}
+.main .main_nav ul li {
+  float: left;
+  color: blue;
+  font-size: 14px;
+  line-height: 25px;
+}
+.main .main_nav ul li a {
+  color: #075DB3;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.main .main_nav ul li a:hover {
+  color: #FF6600;
+}
+.main .section_left {
+  float: left;
+  margin-top: 30px;
+  width: 672px;
+}
+.main .section_left .no {
+  background: url(../images/ding.gif) no-repeat 0 center;
+  padding-left: 32px;
+  height: 22px;
+  display: none;
+}
+.main .section_left .gantan {
+  background: url(../images/gantan.gif) no-repeat 0 center;
+  padding-left: 32px;
+  height: 22px;
+  display: none;
+}
+.main .section_left .suc {
+  background: url(../images/ncie.gif) no-repeat 0 center;
+  padding-left: 32px;
+  height: 22px;
+  display: none;
+}
+.main .section_left .tips {
+  background: url(../images/topic_bg_2.gif) no-repeat 0 center;
+  width: 100%;
+  border-bottom: 2px solid #BDCFDC;
+  margin-bottom: 20px;
+}
+.main .section_left .tips p {
+  padding-left: 18px;
+}
+.main .zhuce {
+  width: 100%;
+}
+.main .zhuce .zhuce_c {
+  margin-top: 2px;
+}
+.main .zhuce .wrap_c {
+  display: inline-block;
+}
+.main .zhuce dl {
+  margin-top: 10px;
+}
+.main .zhuce dl .tit {
+  width: 80px;
+  text-align: left;
+  display: inline-block;
+}
+.main .zhuce dl input {
+  border: 1px solid #CCC;
+  width: 210px;
+  line-height: 24px;
+  height: 24px;
+  display: inline-block;
+}
+.main .zhuce dl dd {
+  margin-left: 80px;
+  height: 28px;
+  line-height: 28px;
+}
+.main .zhuce .pic {
+  display: inline-block;
+  margin-left: 83px;
+  margin-top: 20px;
+}
+.main .zhuce .img_1 {
+  display: inline-block;
+}
+.main .zhuce .pic_full {
+  width: 100%;
+}
+.main .zhuce .flash {
+  display: block;
+}
+.main .zhuce .btn-zhuce {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  height: 34px;
+  text-align: center;
+  width: 104px;
+  margin-left: 83px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.section_right {
+  margin-top: 50px;
+  float: right;
+  width: 30%;
+}
+.section_right li {
+  margin-top: 20px;
+}
+.section_right li a:hover {
+  color: #FF6600;
+}
+.footer {
+  width: 975px;
+  margin: 0 auto;
+  border-top: 1px solid #E8E8E8 ;
+  padding-top: 10px;
+  height: 50px;
+}
+.footer ul {
+  float: right;
+}
+.footer ul li {
+  float: left;
+  margin: 0 8px;
+}
+.footer ul li a {
+  color: #075DB3;
+}
+.footer ul li a:hover {
+  color: #FF6600;
+}
